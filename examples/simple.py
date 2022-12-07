@@ -5,6 +5,7 @@ from resvg_py import resvg_py
 def main():
     svg_xml = """
     <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100">
+        <rect x="0" y="0" width="100" height="100" fill="black" />
         <rect x="10" y="10" width="80" height="80" fill="red" />
     </svg>
     """
