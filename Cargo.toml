@@ -1,0 +1,16 @@
+[package]
+name = "resvg-py"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+[lib]
+name = "resvg_py"
+crate-type = ["cdylib"]
+
+[dependencies]
+pyo3 = { version = "0.17.3", features = ["extension-module"] }
+resvg = "0.23"
+usvg = "0.23"
+tiny-skia = "0.6.6"
+numpy = "0.17"
